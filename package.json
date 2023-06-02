@@ -1,0 +1,21 @@
+{
+  "name": "gym-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd backend && npm install && cd ../app && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rinorkadriu6/gym-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rinorkadriu6/gym-app/issues"
+  },
+  "homepage": "https://github.com/rinorkadriu6/gym-app#readme"
+}
